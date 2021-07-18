@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.bg-top {
+  /* position: fixed;
+  top: 80px;
+  left: 320px;
+  z-index: 1; */
+  position: fixed;
+  right: 44%;
+  transform: translate(0%, -50%);
+  z-index: 1;
+}
+
+.bg-bottom {
+  /* position: fixed;
+  bottom: -335px;
+  right: -320px;
+  z-index: 1; */
+  position: fixed;
+  left: 55%;
+  transform: translate(0%, 40%);
+  z-index: 1;
+}
+
+.container {
+  width: 350px;
+  height: 370px;
+  background-color: #fff;
+  border-radius: 15px;
+  position: relative;
+  z-index: 5;
+}
+
+.pattern-card {
+  background-image: url(images/bg-pattern-card.svg);
+  height: 138px;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.victor-image {
+  background-image: url(images/image-victor.jpg);
+  height: 95px;
+  width: 95px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 85px;
+  left: 122px;
+}
+
+.name-city {
+  position: absolute;
+  top: 215px;
+  left: 107px;
+  text-align: center;
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+}
+
+span {
+  margin-left: 5px;
+}
+
+.city {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 23px;
+  width: 100%;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+  color: hsl(229, 23%, 23%);
+}
+
+.words {
+  font-size: 10px;
+  color: hsl(227, 10%, 46%);
+}
+
+.numbers {
+  font-size: 20px;
+}
+
+.line {
+  border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+.attribution {
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 325px;
+    height: 372px;
+  }
+}
