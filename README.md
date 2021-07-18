@@ -8,11 +8,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 Thanks for checking out this front-end coding challenge.
 
-### Screenshot
-
-![Screenshot](./screenshot.jpeg)
-![Screenshot 2](./design/mobile-design.jpg)
-
 ## The challenge
 
 - My challenge is to build out this profile card component and get it looking as close to the design as possible.
@@ -29,6 +24,11 @@ Thanks for checking out this front-end coding challenge.
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+
+### Screenshot
+
+![Screenshot](./screenshot.jpeg)
+![Screenshot 2](./design/mobile-design.jpg)
 
 ## Author
 
