@@ -4,6 +4,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Overview
 
+### Screenshot
+
+![Screenshot](./screenshot.jpeg)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -24,11 +28,6 @@ Thanks for checking out this front-end coding challenge.
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### Screenshot
-
-![Screenshot](./screenshot.jpeg)
-![Screenshot 2](./design/mobile-design.jpg)
 
 ## Author
 
